@@ -1,4 +1,30 @@
-body{
-    font: 12px;
-    color: black;
+.center-place{
+    font-size: 1.5em;
+    background-color: white;
+}
+
+.contanier{
+    background-color: white;
+    z-index: 100;
+}
+
+.background-cp-img{
+    background-image: url("../img/bodytilebottom-tall.jpg");
+    background-position:left bottom; 
+    background-repeat:repeat-x;
+    background-size: auto;
+    background-color: #414244;
+}
+
+.background-cp-img2{
+    background-image: url("../img/robozombies7.png");
+    background-attachment:fixed; 
+    background-position:center bottom; 
+    background-repeat:repeat-x;
+}
+
+.page-footer{
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+    padding-bottom: 60px;
 }
